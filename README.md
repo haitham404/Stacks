@@ -176,8 +176,8 @@ public class BuiltInStackExample {
     A string is considered balanced if:
        - Every opening parenthesis ((, {, [) has a corresponding closing parenthesis (), }, ]).
    Parentheses are correctly nested, meaning that the first opened parenthesis must be closed first.
-
-   ``` java
+   
+``` java
 
 import java.util.Stack;
 
@@ -207,10 +207,10 @@ public class BalancedParentheses {
                (opening == '[' && closing == ']');
     }
 }
+```
 
 
 
-   ```
 3. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
 
 ---
