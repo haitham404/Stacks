@@ -29,11 +29,29 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 2. **Stack Using Linked List**: [LinkedListStack/Stack.java](LinkedListStack/Stack.java)
 
 ---
+###**Java’s Built-in Stack Class**
+ ```java
+   import java.util.Stack;
 
-## **Implementations**
+public class BuiltInStackExample {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println("Top element: " + stack.peek()); // Output: 30
+        System.out.println("Popped element: " + stack.pop()); // Output: 30
+        System.out.println("Is stack empty? " + stack.isEmpty()); // Output: false
+    }
+}
+
+```
+
+## **Examples**
 1. **Balanced Parentheses Problem**: [BalancedParentheses/BalancedParentheses.java](BalancedParentheses/BalancedParentheses.java)
 2. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
-3. **Java’s Built-in Stack Class**: [BuiltInStack/BuiltInStackExample.java](BuiltInStack/BuiltInStackExample.java)
 
 ---
 
