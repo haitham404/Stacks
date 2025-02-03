@@ -249,11 +249,9 @@ public class ReverseString {
 
 ---
 
-#### **2. Implement Stack using Linked List**  
-**Difficulty**: Easy  
-**Accuracy**: 74%  
-**Companies**: Codenation, Microsoft, Samsung, Sap Labs  
-[Practice Problem](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
+[**2. Implement Stack using Linked List**](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
+
+
 
 ---
 
