@@ -215,7 +215,34 @@ public class BalancedParentheses {
 3. **Reverse a String Using Stack**:
 
 
-   our goal  is to reverse a given string 
+   our goal  is to reverse a given string
+
+
+   ```java
+
+import java.util.Stack;
+
+public class ReverseString {
+    public static String reverseString(String str) {
+        Stack<Character> stack = new Stack<>();
+
+        // Push all characters to stack
+        for (char i : str.toCharArray()) {
+            stack.push(i);
+        }
+
+        // Pop characters to get reversed string
+        StringBuilder reversed = new StringBuilder();
+        while (!stack.isEmpty()) {
+            reversed.append(stack.pop());
+        }
+
+        return reversed.toString();
+    }
+}
+
+
+   ```
 
 ---
 
