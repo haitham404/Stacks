@@ -170,7 +170,7 @@ public class BuiltInStackExample {
 
 ```
 
-## **Examples**
+### **Common problems**
 1. **Balanced Parentheses Problem**:
    
     Our goal is to check if a given string has balanced parentheses. A string is considered balanced if:
