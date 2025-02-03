@@ -20,6 +20,8 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 4. `isEmpty()`: Return `true` if the stack is empty.
 5. `isFull()`: Return `true` if the stack is full (for fixed-size stacks).
 
+![Image](https://github.com/user-attachments/assets/c3f9957b-60ca-48a0-b467-85ab35193e5b)
+
 ---
 
 ### **Key Points:**
