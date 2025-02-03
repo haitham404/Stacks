@@ -247,7 +247,7 @@ public class ReverseString {
 
  [**Remove Duplicate Letters**](https://leetcode.com/problems/remove-duplicate-letters/description/?envType=problem-list-v2&envId=monotonic-stack)
 
-
+[**Daily Temperatures**](https://leetcode.com/problems/daily-temperatures/description/?envType=problem-list-v2&envId=monotonic-stack)
 
  [**Simplify Directory Path**](https://leetcode.com/problems/simplify-path/)
 
