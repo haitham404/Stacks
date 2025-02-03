@@ -245,7 +245,7 @@ public class ReverseString {
 
  [**Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 
- [**Next Greater Element**](https://leetcode.com/problems/next-greater-element-i/)  
+ [**Remove Duplicate Letters**](https://leetcode.com/problems/remove-duplicate-letters/description/?envType=problem-list-v2&envId=monotonic-stack))  
 
 
 
