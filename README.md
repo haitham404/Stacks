@@ -25,7 +25,65 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 
 ### **Implementations**
 - A stack can be implemented using **arrays** or **linked lists**.
-1. **Stack Using Array**: [ArrayStack/Stack.java](ArrayStack/Stack.java)
+1. **Stack Using Array**
+ ```java
+
+class Stack {
+    private int arr[];
+    private int top;
+    private int capacity;
+
+    Stack(int size) {
+        arr = new int[size];
+        capacity = size;
+        top = -1;
+    }
+
+    // Push operation
+    public void push(int i) {
+        if (isFull()) {
+            System.out.println("Stack Overflow");
+            return;
+        }
+        arr[++top] = i;
+    }
+
+    // Pop operation
+    public int pop() {
+        if (isEmpty()) {
+            System.out.println("Stack Underflow");
+            return -1;
+        }
+        return arr[top--];
+    }
+
+    // Peek operation
+    public int peek() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return -1;
+        }
+        return arr[top];
+    }
+
+    // Check if stack is empty
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
+    // Check if stack is full
+    public boolean isFull() {
+        return top == capacity - 1;
+    }
+
+    public void printStack() {
+        for (int i = top; i >= 0; i--) {
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+```
 2. **Stack Using Linked List**: [LinkedListStack/Stack.java](LinkedListStack/Stack.java)
 
 ---
