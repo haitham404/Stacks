@@ -23,19 +23,17 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 
 ---
 
-### **Key Points:**
+### **Implementations**
 - A stack can be implemented using **arrays** or **linked lists**.
-- The **time complexity** for `push()` and `pop()` is **O(1)**.
-- The **space complexity** depends on the implementation (**O(n)** for arrays).
+1. **Stack Using Array**: [ArrayStack/Stack.java](ArrayStack/Stack.java)
+2. **Stack Using Linked List**: [LinkedListStack/Stack.java](LinkedListStack/Stack.java)
 
 ---
 
 ## **Implementations**
-1. **Stack Using Array**: [ArrayStack/Stack.java](ArrayStack/Stack.java)
-2. **Stack Using Linked List**: [LinkedListStack/Stack.java](LinkedListStack/Stack.java)
-3. **Balanced Parentheses Problem**: [BalancedParentheses/BalancedParentheses.java](BalancedParentheses/BalancedParentheses.java)
-4. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
-5. **Java’s Built-in Stack Class**: [BuiltInStack/BuiltInStackExample.java](BuiltInStack/BuiltInStackExample.java)
+1. **Balanced Parentheses Problem**: [BalancedParentheses/BalancedParentheses.java](BalancedParentheses/BalancedParentheses.java)
+2. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
+3. **Java’s Built-in Stack Class**: [BuiltInStack/BuiltInStackExample.java](BuiltInStack/BuiltInStackExample.java)
 
 ---
 
