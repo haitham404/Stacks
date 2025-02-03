@@ -238,6 +238,62 @@ public class ReverseString {
     }
 }
 ```
+---
+### **Stack Problems**
+
+#### **1. Implement Stack using Array**  
+**Difficulty**: Easy  
+**Accuracy**: 62%  
+**Companies**: Goldman Sachs, Qualcomm, Visa  
+[Practice Problem](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
+
+---
+
+#### **2. Implement Stack using Linked List**  
+**Difficulty**: Easy  
+**Accuracy**: 74%  
+**Companies**: Codenation, Microsoft, Samsung, Sap Labs  
+[Practice Problem](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
+
+---
+
+#### **3. Balanced Parentheses**  
+**Difficulty**: Easy  
+**Accuracy**: 60%  
+**Companies**: Amazon, Google  
+[Practice Problem](https://leetcode.com/problems/valid-parentheses/)  
+
+---
+
+#### **4. Implement Min Stack**  
+**Difficulty**: Easy  
+**Accuracy**: 45%  
+**Companies**: Adobe, Amazon, Microsoft, Yahoo  
+[Practice Problem](https://leetcode.com/problems/min-stack/)  
+
+---
+
+#### **5. Evaluate Reverse Polish Notation**  
+**Difficulty**: Medium  
+**Accuracy**: 82%  
+**Companies**: -  
+[Practice Problem](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
+
+---
+
+#### **6. Next Greater Element**  
+**Difficulty**: Medium  
+**Accuracy**: 65%  
+**Companies**: Amazon, Flipkart, Google, Microsoft  
+[Practice Problem](https://leetcode.com/problems/next-greater-element-i/)  
+
+---
+
+#### **7. Simplify Directory Path**  
+**Difficulty**: Medium  
+**Accuracy**: -  
+**Companies**: -  
+[Practice Problem](https://leetcode.com/problems/simplify-path/)
 
 
 
