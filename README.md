@@ -212,14 +212,11 @@ public class BalancedParentheses {
 
 
 
-3. **Reverse a String Using Stack**:
+3. **Reverse a String Using Stack** :
 
+       our goal  is to reverse a given string
 
-   our goal  is to reverse a given string
-
-
-   ```java
-
+```java
 import java.util.Stack;
 
 public class ReverseString {
@@ -240,9 +237,7 @@ public class ReverseString {
         return reversed.toString();
     }
 }
+```
 
 
-   ```
-
----
 
