@@ -11,16 +11,8 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 3. **Peek**: View the top element without removing it.
 4. **IsEmpty**: Check if the stack is empty.
 
-### **Real-Life Examples:**
-- Undo feature in text editors.
-- Back button in a web browser.
-- Expression evaluation in programming languages.
 
 ---
-
-### **Hints on ADT (Abstract Data Type)**
-An **ADT (Abstract Data Type)** defines a data structure's behavior without specifying implementation details.
-
 #### **Stack ADT Operations:**
 1. `push(i)`: Insert `i` at the top.
 2. `pop()`: Remove and return the top element.
