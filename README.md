@@ -171,8 +171,47 @@ public class BuiltInStackExample {
 ```
 
 ## **Examples**
-1. **Balanced Parentheses Problem**: [BalancedParentheses/BalancedParentheses.java](BalancedParentheses/BalancedParentheses.java)
-2. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
+1. **Balanced Parentheses Problem**
+   Our goal is to check if a given string has balanced parentheses.
+    A string is considered balanced if:
+       - Every opening parenthesis ((, {, [) has a corresponding closing parenthesis (), }, ]).
+   Parentheses are correctly nested, meaning that the first opened parenthesis must be closed first.
+
+   ``` java
+
+import java.util.Stack;
+
+public class BalancedParentheses {
+    public static boolean isBalanced(String str) {
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : str.toCharArray()) {
+            if (ch == '(' || ch == '{' || ch == '[') {
+                stack.push(ch);
+            } else if (ch == ')' || ch == '}' || ch == ']') {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+                char top = stack.pop();
+                if (!isMatchingPair(top, ch)) {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    private static boolean isMatchingPair(char opening, char closing) {
+        return (opening == '(' && closing == ')') ||
+               (opening == '{' && closing == '}') ||
+               (opening == '[' && closing == ']');
+    }
+}
+
+
+
+   ```
+3. **Reverse a String Using Stack**: [ReverseString/ReverseString.java](ReverseString/ReverseString.java)
 
 ---
 
