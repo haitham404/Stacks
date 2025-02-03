@@ -175,9 +175,8 @@ public class BuiltInStackExample {
    
     Our goal is to check if a given string has balanced parentheses. A string is considered balanced if:
     
-              Every opening parenthesis ((, {, [) has a corresponding closing parenthesis (), }, ]).
-              
-              Parentheses are correctly nested, meaning that the first opened parenthesis must be closed first.
+  1.  Every opening parenthesis ((, {, [) has a corresponding closing parenthesis (), }, ]).
+  2.  Parentheses are correctly nested, meaning that the first opened parenthesis must be closed first.
    
 ``` java
 
