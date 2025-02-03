@@ -84,7 +84,70 @@ class Stack {
 }
 
 ```
-2. **Stack Using Linked List**: [LinkedListStack/Stack.java](LinkedListStack/Stack.java)
+2. **Stack Using Linked List**
+
+```java
+
+class Stack {
+    private Node top;
+
+    public Stack() {
+        this.top = null;
+    }
+
+    // Push operation
+    public void push(int data) {
+        Node newNode = new Node(data);
+        if (top == null) {
+            top = newNode;
+        } else {
+            newNode.next = top;
+            top = newNode;
+        }
+        System.out.println(data + " pushed to stack");
+    }
+
+    // Pop operation
+    public int pop() {
+        if (isEmpty()) {
+            System.out.println("Stack Underflow");
+            return -1;
+        }
+        int popped = top.data;
+        top = top.next;
+        return popped;
+    }
+
+    // Peek operation
+    public int peek() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return -1;
+        }
+        return top.data;
+    }
+
+    // Check if stack is empty
+    public boolean isEmpty() {
+        return top == null;
+    }
+
+    // Print the stack
+    public void printStack() {
+        if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return;
+        }
+        Node current = top;
+        System.out.println("Stack elements:");
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.next;
+        }
+    }
+}
+
+```
 
 ---
 ### **Java’s Built-in Stack Class**
