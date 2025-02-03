@@ -11,6 +11,8 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 3. **Peek**: View the top element without removing it.
 4. **IsEmpty**: Check if the stack is empty.
 
+![Image](https://github.com/user-attachments/assets/ace21835-a281-444c-9eea-e2f6e97baf00)
+
 
 ---
 #### **Stack ADT Operations:**
