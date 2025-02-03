@@ -241,19 +241,12 @@ public class ReverseString {
 ---
 ### **Stack Problems**
 
-#### **1. Implement Stack using Array**  
-**Difficulty**: Easy  
-**Accuracy**: 62%  
-**Companies**: Goldman Sachs, Qualcomm, Visa  
-[Practice Problem](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
-
----
+[**1. Implement Stack using Array**](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/) 
 
 [**2. Implement Stack using Linked List**](https://www.geeksforgeeks.org/stack-data-structure-introduction-program/)  
 
 
 
----
 
 #### **3. Balanced Parentheses**  
 **Difficulty**: Easy  
