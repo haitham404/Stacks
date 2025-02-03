@@ -243,14 +243,13 @@ public class ReverseString {
 
 
 
-#### [**Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
+ [**Evaluate Reverse Polish Notation**](https://leetcode.com/problems/evaluate-reverse-polish-notation/) 
 
-#### [**Next Greater Element**](https://leetcode.com/problems/next-greater-element-i/)  
+ [**Next Greater Element**](https://leetcode.com/problems/next-greater-element-i/)  
 
 
----
 
-#### [**Simplify Directory Path**]  (https://leetcode.com/problems/simplify-path/)
+ [**Simplify Directory Path**](https://leetcode.com/problems/simplify-path/)
 
 
 
