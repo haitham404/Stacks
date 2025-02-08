@@ -5,11 +5,7 @@ A stack is a linear data structure that follows the **LIFO (Last In, First Out)*
 - You can only add a new plate on top.
 - You can only remove the top plate first.
 
-### **Key Operations:**
-1. **Push**: Add an element to the stack.
-2. **Pop**: Remove the top element from the stack.
-3. **Peek**: View the top element without removing it.
-4. **IsEmpty**: Check if the stack is empty.
+
 
 ---
 #### **Stack ADT Operations:**
