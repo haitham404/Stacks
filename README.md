@@ -1,6 +1,6 @@
 # Stack 
 
-📚 **Understand: What is a Stack?**
+**Understand: What is a Stack?**
 A stack is a linear data structure that follows the **LIFO (Last In, First Out)** principle. Imagine a stack of plates:
 - You can only add a new plate on top.
 - You can only remove the top plate first.
